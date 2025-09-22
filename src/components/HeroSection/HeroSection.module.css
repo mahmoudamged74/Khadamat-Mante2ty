@@ -1,0 +1,442 @@
+/* Hero Section Styles */
+.heroSection {
+  position: relative;
+  background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Swiper Container */
+.swiper {
+  width: 100%;
+  height: 100vh;
+}
+
+.slide {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+/* Content Side */
+.contentSide {
+  padding: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.welcomeBadge {
+  display: inline-block;
+  background: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.mainTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #6c757d;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.primaryButton {
+  background: var(--primary-color);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(24, 65, 147, 0.3);
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+.primaryButton:hover {
+  background: var(--primary-light);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(24, 65, 147, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+.secondaryButton {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 1rem 2rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  background: transparent;
+}
+
+.secondaryButton:hover {
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+}
+
+/* Image Side */
+.imageSide {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.imageContainer {
+  position: relative;
+  z-index: 2;
+  max-width: 500px;
+  width: 100%;
+}
+
+.heroImage {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.heroImage:hover {
+  transform: scale(1.05);
+}
+
+/* Decorative Clouds */
+.decorativeClouds {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  z-index: 1;
+}
+
+.imageClouds {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 200px;
+  z-index: 1;
+}
+
+.cloud1,
+.cloud2,
+.cloud3,
+.cloud4,
+.cloud5,
+.cloud6 {
+  position: absolute;
+  background: rgba(24, 65, 147, 0.1);
+  border-radius: 50px;
+  opacity: 0.6;
+}
+
+.cloud1 {
+  width: 80px;
+  height: 40px;
+  bottom: 50px;
+  left: 20%;
+  animation: float 6s ease-in-out infinite;
+}
+
+.cloud2 {
+  width: 60px;
+  height: 30px;
+  bottom: 80px;
+  left: 60%;
+  animation: float 8s ease-in-out infinite reverse;
+}
+
+.cloud3 {
+  width: 100px;
+  height: 50px;
+  bottom: 30px;
+  left: 80%;
+  animation: float 7s ease-in-out infinite;
+}
+
+.cloud4 {
+  width: 70px;
+  height: 35px;
+  top: 20px;
+  right: 20%;
+  animation: float 5s ease-in-out infinite reverse;
+}
+
+.cloud5 {
+  width: 90px;
+  height: 45px;
+  top: 60px;
+  right: 60%;
+  animation: float 6s ease-in-out infinite;
+}
+
+.cloud6 {
+  width: 50px;
+  height: 25px;
+  top: 100px;
+  right: 80%;
+  animation: float 8s ease-in-out infinite reverse;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Custom Pagination */
+.customPagination {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.customBullet {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #dee2e6;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  outline: none;
+}
+
+.customBulletActive {
+  background: #ff6b35;
+  transform: scale(1.2);
+}
+
+/* Scroll to Top Button */
+.scrollToTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 50px;
+  height: 50px;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.scrollToTop:hover {
+  background: var(--primary-color);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* RTL Support */
+[dir="rtl"] .contentSide {
+  text-align: right;
+}
+
+[dir="rtl"] .actionButtons {
+  flex-direction: row-reverse;
+}
+
+/* RTL Layout - Swap columns for Arabic */
+/* Swap columns automatically when RTL */
+
+[dir="rtl"] .row .col-lg-6:first-child {
+    order: 2; /* الصورة تبقى بعد المحتوى */
+  }
+  
+  [dir="rtl"] .row .col-lg-6:last-child {
+    order: 1; /* المحتوى ييجي قبل الصورة */
+  }
+  
+  /* RTL Support */
+  [dir="rtl"] .contentSide {
+    text-align: right;
+  }
+
+/* RTL Support for Swiper */
+.swiper[dir="ltr"] {
+  direction: ltr;
+}
+
+.swiper[dir="ltr"] .swiper-slide {
+  direction: ltr;
+}
+
+[dir="rtl"] .scrollToTop {
+  right: auto;
+  left: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1199.98px) {
+  .mainTitle {
+    font-size: 3rem;
+  }
+
+  .description {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .heroSection {
+    min-height: auto;
+  }
+
+  .swiper {
+    height: auto;
+  }
+
+  .slide {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .contentSide {
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  /* Reset order for mobile - keep normal order on small screens */
+ 
+
+  .imageSide {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .imageContainer {
+    max-width: none;
+    width: 100%;
+  }
+
+  .mainTitle {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    max-width: none;
+  }
+
+  .actionButtons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .customPagination {
+    position: static;
+    transform: none;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .mainTitle {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .primaryButton {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .secondaryButton {
+    font-size: 1rem;
+  }
+
+  .actionButtons {
+    gap: 1rem;
+  }
+
+  .scrollToTop {
+    width: 45px;
+    height: 45px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .mainTitle {
+    font-size: 1.8rem;
+  }
+
+  .welcomeBadge {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .actionButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .primaryButton {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .secondaryButton {
+    text-align: center;
+  }
+
+  .imageContainer {
+    max-width: none;
+    width: 100%;
+  }
+}

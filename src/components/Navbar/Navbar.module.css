@@ -1,0 +1,174 @@
+/* Navbar Styles */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.75rem 0;
+  background-color: white !important;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  color: var(--primary-color) !important;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: 700;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+.navbar-brand:hover {
+  color: var(--primary-light) !important;
+}
+
+.nav-link {
+  color: var(--primary-color) !important;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem !important;
+  transition: all 0.3s ease;
+  border-radius: 0.375rem;
+  margin: 0 0.25rem;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+.nav-link:hover {
+  color: var(--primary-light) !important;
+  background-color: rgba(24, 65, 147, 0.1);
+}
+
+.nav-link.active {
+  color: var(--primary-dark) !important;
+  background-color: rgba(24, 65, 147, 0.15);
+}
+
+/* Dropdown Styles */
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+  margin-top: 0.5rem;
+}
+
+.dropdown-item {
+  padding: 0.5rem 1rem;
+  color: #333;
+  transition: all 0.3s ease;
+  border-radius: 0.25rem;
+  margin: 0.125rem 0.5rem;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #0d6efd;
+}
+
+.dropdown-divider {
+  margin: 0.5rem 0;
+  border-color: #e9ecef;
+}
+
+/* Language Switcher */
+.btn-group .btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border-color: var(--primary-color);
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+.btn-group .btn:hover {
+  transform: translateY(-1px);
+}
+
+/* Login Button */
+.btn-outline-light {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+.btn-outline-light:hover {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+  transform: translateY(-1px);
+}
+
+/* Mobile Styles */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-item {
+    margin: 0.25rem 0;
+  }
+
+  .nav-link {
+    padding: 0.75rem 1rem !important;
+    margin: 0;
+  }
+
+  .d-flex {
+    flex-direction: column;
+    gap: 1rem !important;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .btn-group {
+    align-self: center;
+  }
+
+  .btn-outline-light {
+    align-self: center;
+  }
+}
+
+/* RTL Support */
+[dir="rtl"] .navbar-nav {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+[dir="rtl"] .me-auto {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+[dir="rtl"] .dropdown-menu {
+  text-align: right;
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] .dropdown-item {
+  text-align: right;
+}
+
+/* Animation for mobile menu */
+.navbar-collapse {
+  transition: all 0.3s ease;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0.25rem 0.5rem;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23184193' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}

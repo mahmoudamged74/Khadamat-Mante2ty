@@ -1,0 +1,118 @@
+/* Import IBM Plex Sans Arabic Font */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap");
+
+/* RTL Support for Arabic */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="rtl"] .btn-group .btn:not(:last-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+}
+
+[dir="rtl"] .btn-group .btn:not(:first-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
+}
+
+[dir="rtl"] .me-2 {
+  margin-left: 0.5rem !important;
+  margin-right: 0 !important;
+}
+
+[dir="rtl"] .ms-2 {
+  margin-right: 0.5rem !important;
+  margin-left: 0 !important;
+}
+
+[dir="rtl"] .pe-2 {
+  padding-left: 0.5rem !important;
+  padding-right: 0 !important;
+}
+
+[dir="rtl"] .ps-2 {
+  padding-right: 0.5rem !important;
+  padding-left: 0 !important;
+}
+
+/* CSS Variables for Global Colors */
+:root {
+  --primary-color: #184193;
+  --primary-light: #2a5bb8;
+  --primary-dark: #0f2a6b;
+}
+
+/* Custom styles */
+body {
+  font-family: "IBM Plex Sans Arabic", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  font-weight: 400;
+}
+
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.btn-group .btn {
+  border-radius: 0;
+}
+
+.btn-group .btn:first-child {
+  border-top-left-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
+}
+
+.btn-group .btn:last-child {
+  border-top-right-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+}
+
+/* IBM Plex Sans Arabic Font Classes */
+.ibm-plex-sans-arabic-thin {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-extralight {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-light {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-regular {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-medium {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-semibold {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-bold {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
