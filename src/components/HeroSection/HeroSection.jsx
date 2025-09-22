@@ -22,7 +22,7 @@ const HeroSection = () => {
       description:
         t("hero_description_1") ||
         "نحن نقدم أفضل الخدمات لجميع احتياجاتك اليومية في مكان واحد",
-      image: "/public/assets/cart.webp",
+      image: "/assets/cart.webp",
       discount: "50%",
       discountText:
         t("hero_discount") || "احصل على خصم يصل إلى 50% على أول زيارة",
@@ -32,7 +32,7 @@ const HeroSection = () => {
       title: t("hero_title_2") || "أفضل المطاعم في منطقتك",
       description:
         t("hero_description_2") || "اكتشف مجموعة متنوعة من المطاعم الشهية",
-      image: "/public/assets/ceiling.webp",
+      image: "/assets/ceiling.webp",
       discount: "30%",
       discountText: t("hero_discount_2") || "خصم خاص على الطلبات الأولى",
     },
@@ -42,7 +42,7 @@ const HeroSection = () => {
       description:
         t("hero_description_3") ||
         "احصل على أفضل الخدمات الطبية من أطباء متخصصين",
-      image: "/public/assets/people.webp",
+      image: "/assets/people.webp",
       discount: "25%",
       discountText: t("hero_discount_3") || "استشارة طبية مجانية",
     },

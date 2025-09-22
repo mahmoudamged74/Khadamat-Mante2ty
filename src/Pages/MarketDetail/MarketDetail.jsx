@@ -36,8 +36,8 @@ const MarketDetail = () => {
     rating: 4.5,
     workingHours: "وقت العمل : 8 ص : 12 م",
     address: "32 ش فيصل الجيزة",
-    logo: "/public/assets/cart.webp",
-    heroImage: "/public/assets/cart.webp",
+    logo: "/assets/cart.webp",
+    heroImage: "/assets/cart.webp",
     category: "supermarket",
   };
 
@@ -45,17 +45,17 @@ const MarketDetail = () => {
   const photos = [
     {
       id: 1,
-      image: "/public/assets/banana.webp",
+      image: "/assets/banana.webp",
       title: "قسم الخضروات الطازجة",
     },
     {
       id: 2,
-      image: "/public/assets/banana.webp",
+      image: "/assets/banana.webp",
       title: "قسم الفواكه الموسمية",
     },
     {
       id: 3,
-      image: "/public/assets/banana.webp",
+      image: "/assets/banana.webp",
       title: "قسم اللحوم والأسماك",
     },
   ];
@@ -67,7 +67,7 @@ const MarketDetail = () => {
       title: "عرض الخضروات الطازجة",
       description: "خضروات طازجة بخصم 30%",
       discount: "30%",
-      image: "/public/assets/banana.webp",
+      image: "/assets/banana.webp",
       price: 50,
     },
     {
@@ -75,7 +75,7 @@ const MarketDetail = () => {
       title: "عرض الفواكه الموسمية",
       description: "فواكه موسمية بخصم 25%",
       discount: "25%",
-      image: "/public/assets/banana.webp",
+      image: "/assets/banana.webp",
       price: 80,
     },
   ];
@@ -86,7 +86,7 @@ const MarketDetail = () => {
       id: 1,
       name: "طماطم طازجة",
       description: "طماطم طازجة من المزرعة",
-      image: "/public/assets/banana.webp",
+      image: "/assets/banana.webp",
       price: 15,
       sizes: ["كيلو", "نصف كيلو", "ربع كيلو"],
       storeName: "سوبر ماركت الأهلي",
@@ -95,7 +95,7 @@ const MarketDetail = () => {
       id: 2,
       name: "موز أصفر",
       description: "موز أصفر طازج",
-      image: "/public/assets/banana.webp",
+      image: "/assets/banana.webp",
       price: 25,
       sizes: ["كيلو", "نصف كيلو", "ربع كيلو"],
       storeName: "سوبر ماركت الأهلي",
@@ -110,7 +110,7 @@ const MarketDetail = () => {
       address: "32 الشهيد فريد نما قسم دمياط",
       workingHours: "وقت العمل : 8 ص : 12م",
       rating: 4.5,
-      image: "/public/assets/cart.webp",
+      image: "/assets/cart.webp",
     },
     {
       id: 2,
@@ -118,7 +118,7 @@ const MarketDetail = () => {
       address: "شارع التحرير، وسط البلد",
       workingHours: "وقت العمل : 8 ص : 12م",
       rating: 4.8,
-      image: "/public/assets/cart.webp",
+      image: "/assets/cart.webp",
     },
   ];
 

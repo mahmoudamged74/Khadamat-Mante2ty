@@ -29,7 +29,7 @@ const OffersSection = () => {
       originalPrice: 80.0,
       discountedPrice: 66.0,
       discount: "10%",
-      image: "/public/assets/shelcal.jpg",
+      image: "/assets/shelcal.jpg",
       link: "/product/shelcal",
     },
     {
@@ -39,7 +39,7 @@ const OffersSection = () => {
       originalPrice: 15.0,
       discountedPrice: 12.0,
       discount: "10%",
-      image: "/public/assets/supradyn.jpg",
+      image: "/assets/supradyn.jpg",
       link: "/product/supradyn",
     },
     {
@@ -49,7 +49,7 @@ const OffersSection = () => {
       originalPrice: 20.0,
       discountedPrice: 34.0,
       discount: "10%",
-      image: "/public/assets/accucheck.jpg",
+      image: "/assets/accucheck.jpg",
       link: "/product/accucheck",
     },
     {
@@ -59,7 +59,7 @@ const OffersSection = () => {
       originalPrice: 12.0,
       discountedPrice: 8.5,
       discount: "10%",
-      image: "/public/assets/curaskin.jpg",
+      image: "/assets/curaskin.jpg",
       link: "/product/curaskin",
     },
     {
@@ -69,7 +69,7 @@ const OffersSection = () => {
       originalPrice: 25.0,
       discountedPrice: 20.0,
       discount: "20%",
-      image: "/public/assets/vitamin-d3.jpg",
+      image: "/assets/vitamin-d3.jpg",
       link: "/product/vitamin-d3",
     },
     {
@@ -79,7 +79,7 @@ const OffersSection = () => {
       originalPrice: 35.0,
       discountedPrice: 28.0,
       discount: "20%",
-      image: "/public/assets/omega-3.jpg",
+      image: "/assets/omega-3.jpg",
       link: "/product/omega-3",
     },
   ];

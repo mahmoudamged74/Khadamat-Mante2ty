@@ -17,37 +17,37 @@ const CategoriesSection = () => {
     {
       id: 1,
       name: t("restaurants"),
-      image: "/public/assets/ceiling.webp",
+      image: "/assets/ceiling.webp",
       link: "/restaurants",
     },
     {
       id: 2,
       name: t("markets"),
-      image: "/public/assets/cart.webp",
+      image: "/assets/cart.webp",
       link: "/markets",
     },
     {
       id: 3,
       name: t("clinics"),
-      image: "/public/assets/people.webp",
+      image: "/assets/people.webp",
       link: "/clinics",
     },
     {
       id: 4,
       name: t("libraries"),
-      image: "/public/assets/library.webp",
+      image: "/assets/library.webp",
       link: "/libraries",
     },
     {
       id: 5,
       name: t("accessories"),
-      image: "/public/assets/chain.webp",
+      image: "/assets/chain.webp",
       link: "/accessories",
     },
     {
       id: 6,
       name: t("car_wash"),
-      image: "/public/assets/car-garage.webp",
+      image: "/assets/car-garage.webp",
       link: "/car-wash",
     },
   ];

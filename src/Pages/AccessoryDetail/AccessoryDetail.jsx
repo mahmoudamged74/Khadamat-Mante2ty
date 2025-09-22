@@ -36,8 +36,8 @@ const AccessoryDetail = () => {
     rating: 4.8,
     workingHours: "وقت العمل : 9 ص : 10 م",
     address: "شارع التحرير، وسط البلد",
-    logo: "/public/assets/acc.svg",
-    heroImage: "/public/assets/chain.webp",
+    logo: "/assets/acc.svg",
+    heroImage: "/assets/chain.webp",
     category: "jewelry",
   };
 
@@ -45,17 +45,17 @@ const AccessoryDetail = () => {
   const photos = [
     {
       id: 1,
-      image: "/public/assets/chain.webp",
+      image: "/assets/chain.webp",
       title: "مجوهرات ذهبية كلاسيكية",
     },
     {
       id: 2,
-      image: "/public/assets/chain.webp",
+      image: "/assets/chain.webp",
       title: "خواتم الخطوبة والزواج",
     },
     {
       id: 3,
-      image: "/public/assets/chain.webp",
+      image: "/assets/chain.webp",
       title: "سلاسل وأساور ذهبية",
     },
   ];
@@ -67,7 +67,7 @@ const AccessoryDetail = () => {
       title: "عرض الذهب الأصفر",
       description: "خواتم ذهبية بخصم 20%",
       discount: "20%",
-      image: "/public/assets/chain.webp",
+      image: "/assets/chain.webp",
       price: 1500,
     },
     {
@@ -75,7 +75,7 @@ const AccessoryDetail = () => {
       title: "عرض المجوهرات الفضية",
       description: "مجوهرات فضية بخصم 25%",
       discount: "25%",
-      image: "/public/assets/chain.webp",
+      image: "/assets/chain.webp",
       price: 800,
     },
   ];
@@ -86,7 +86,7 @@ const AccessoryDetail = () => {
       id: 1,
       name: "خاتم ذهب عيار 18",
       description: "خاتم ذهب أصفر عيار 18 مع فص من الماس",
-      image: "/public/assets/chain.webp",
+      image: "/assets/chain.webp",
       price: 2500,
       sizes: ["16", "17", "18", "19"],
       storeName: "محل الذهب الأصيل",
@@ -95,7 +95,7 @@ const AccessoryDetail = () => {
       id: 2,
       name: "سلسلة ذهبية أنيقة",
       description: "سلسلة ذهبية عيار 21 مع قلادة",
-      image: "/public/assets/chain.webp",
+      image: "/assets/chain.webp",
       price: 1800,
       sizes: ["40cm", "45cm", "50cm"],
       storeName: "محل الذهب الأصيل",
@@ -110,7 +110,7 @@ const AccessoryDetail = () => {
       address: "شارع المعادي، المعادي",
       workingHours: "وقت العمل : 9 ص : 10م",
       rating: 4.7,
-      image: "/public/assets/chain.webp",
+      image: "/assets/chain.webp",
     },
     {
       id: 2,
@@ -118,7 +118,7 @@ const AccessoryDetail = () => {
       address: "شارع الزمالك، الزمالك",
       workingHours: "وقت العمل : 9 ص : 10م",
       rating: 4.9,
-      image: "/public/assets/chain.webp",
+      image: "/assets/chain.webp",
     },
   ];
 
@@ -207,7 +207,7 @@ const AccessoryDetail = () => {
                   </button>
                 </div>
                 <div className={styles.offerImage}>
-                  <img src={offer.image} alt={offer.title} loading="lazy"/>
+                  <img src={offer.image} alt={offer.title} loading="lazy" />
                   <div className={styles.offerDiscount}>{offer.discount}</div>
                 </div>
                 <div className={styles.offerInfo}>
@@ -264,7 +264,11 @@ const AccessoryDetail = () => {
       {/* Hero Section */}
       <div className={styles.heroSection}>
         <div className={styles.heroImage}>
-          <img src={accessoryStore.heroImage} alt={accessoryStore.name} loading="lazy" />
+          <img
+            src={accessoryStore.heroImage}
+            alt={accessoryStore.name}
+            loading="lazy"
+          />
         </div>
         <div className={styles.heroOverlay}>
           <div className={styles.storeInfo}>
@@ -273,7 +277,7 @@ const AccessoryDetail = () => {
                 src={accessoryStore.logo}
                 alt={`${accessoryStore.name} logo`}
                 loading="lazy"
-            />
+              />
             </div>
             <h1 className={styles.storeName}>{accessoryStore.name}</h1>
             <p className={styles.storeDescription}>

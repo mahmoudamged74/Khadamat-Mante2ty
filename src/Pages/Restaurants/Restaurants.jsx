@@ -30,7 +30,7 @@ const Restaurants = () => {
       discount: "50%",
       subtitle: "This weekend only",
       cta: "Order now!",
-      image: "/public/assets/banner.png",
+      image: "/assets/banner.png",
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ const Restaurants = () => {
       discount: "30%",
       subtitle: "Limited time offer",
       cta: "Order now!",
-      image: "/public/assets/banner2.webp",
+      image: "/assets/banner2.webp",
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ const Restaurants = () => {
       discount: "25%",
       subtitle: "Best ingredients",
       cta: "Order now!",
-      image: "/public/assets/banner3.webp",
+      image: "/assets/banner3.webp",
     },
   ];
 
@@ -68,8 +68,8 @@ const Restaurants = () => {
       availability: "متاح اونلاين إلى 11:59 م",
       discount: "5%",
       rating: 4.5,
-      image: "/public/assets/bread-table.webp",
-      logo: "/public/assets/bread-table.webp",
+      image: "/assets/bread-table.webp",
+      logo: "/assets/bread-table.webp",
       category: "seafood",
     },
     {
@@ -80,8 +80,8 @@ const Restaurants = () => {
       availability: "متاح اونلاين إلى 12:00 ص",
       discount: "15%",
       rating: 6.5,
-      image: "/public/assets/bread-table.webp",
-      logo: "/public/assets/bread-table.webp",
+      image: "/assets/bread-table.webp",
+      logo: "/assets/bread-table.webp",
       category: "fast_food",
     },
     {
@@ -91,8 +91,8 @@ const Restaurants = () => {
       availability: "متاح اونلاين إلى 10:00 م",
       discount: "10%",
       rating: 4.8,
-      image: "/public/assets/bread-table.webp",
-      logo: "/public/assets/bread-table.webp",
+      image: "/assets/bread-table.webp",
+      logo: "/assets/bread-table.webp",
       category: "syrian",
     },
     {
@@ -102,8 +102,8 @@ const Restaurants = () => {
       availability: "متاح اونلاين إلى 11:30 م",
       discount: "20%",
       rating: 4.2,
-      image: "/public/assets/bread-table.webp",
-      logo: "/public/assets/bread-table.webp",
+      image: "/assets/bread-table.webp",
+      logo: "/assets/bread-table.webp",
       category: "pizza",
     },
     {
@@ -113,8 +113,8 @@ const Restaurants = () => {
       availability: "متاح اونلاين إلى 9:00 م",
       discount: "8%",
       rating: 4.7,
-      image: "/public/assets/bread-table.webp",
-      logo: "/public/assets/bread-table.webp",
+      image: "/assets/bread-table.webp",
+      logo: "/assets/bread-table.webp",
       category: "koshary",
     },
     {
@@ -124,8 +124,8 @@ const Restaurants = () => {
       availability: "متاح اونلاين إلى 11:00 م",
       discount: "12%",
       rating: 4.6,
-      image: "/public/assets/bread-table.webp",
-      logo: "/public/assets/bread-table.webp",
+      image: "/assets/bread-table.webp",
+      logo: "/assets/bread-table.webp",
       category: "lasagna",
     },
   ];

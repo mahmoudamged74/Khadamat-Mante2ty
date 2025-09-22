@@ -34,8 +34,8 @@ const RestaurantDetail = () => {
     name: "Heart Attack",
     workingHours: "وقت العمل : 12 ص : 12 م",
     address: "32 ش فيصل الجيزة",
-    logo: "/public/assets/22.svg",
-    heroImage: "/public/assets/1.svg",
+    logo: "/assets/22.svg",
+    heroImage: "/assets/1.svg",
     category: "fast_food",
   };
 
@@ -43,17 +43,17 @@ const RestaurantDetail = () => {
   const photos = [
     {
       id: 1,
-      image: "/public/assets/bread-table.webp  ",
+      image: "/assets/bread-table.webp  ",
       title: "وجبة العائلة الكاملة",
     },
     {
       id: 2,
-      image: "/public/assets/bread-table.webp",
+      image: "/assets/bread-table.webp",
       title: "برجر القلب",
     },
     {
       id: 3,
-      image: "/public/assets/bread-table.webp",
+      image: "/assets/bread-table.webp",
       title: "دجاج مقلي",
     },
   ];
@@ -65,7 +65,7 @@ const RestaurantDetail = () => {
       title: "اقوى عرض لاقوى ويك أند",
       description: "9 بروست، 2 كول سلو، 2 رز 39 عيش",
       discount: "15%",
-      image: "/public/assets/bread-table.webp",
+      image: "/assets/bread-table.webp",
       price: 200,
     },
     {
@@ -73,7 +73,7 @@ const RestaurantDetail = () => {
       title: "عرض البرجر الكبير",
       description: "برجر كبير مع بطاطس وشراب",
       discount: "20%",
-      image: "/public/assets/bread-table.webp",
+      image: "/assets/bread-table.webp",
       price: 150,
     },
   ];
@@ -84,7 +84,7 @@ const RestaurantDetail = () => {
       id: 1,
       name: "وجبة العائلة",
       description: "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.",
-      image: "/public/assets/bread-table.webp",
+      image: "/assets/bread-table.webp",
       price: 200,
       sizes: ["S", "M", "L"],
       storeName: "اسم المحل",
@@ -93,7 +93,7 @@ const RestaurantDetail = () => {
       id: 2,
       name: "برجر القلب",
       description: "برجر لحم مع جبن وطماطم",
-      image: "/public/assets/bread-table.webp",
+      image: "/assets/bread-table.webp",
       price: 120,
       sizes: ["S", "M", "L"],
       storeName: "اسم المحل",
@@ -108,7 +108,7 @@ const RestaurantDetail = () => {
       address: "32 الشهيد فريد نما قسم دمياط",
       workingHours: "وقت العمل : 12 م : 12م",
       rating: 4.5,
-      image: "/public/assets/bread-table.webp",
+      image: "/assets/bread-table.webp",
     },
     {
       id: 2,
@@ -116,7 +116,7 @@ const RestaurantDetail = () => {
       address: "شارع التحرير، وسط البلد",
       workingHours: "وقت العمل : 12 م : 12م",
       rating: 4.8,
-      image: "/public/assets/bread-table.webp",
+      image: "/assets/bread-table.webp",
     },
   ];
 

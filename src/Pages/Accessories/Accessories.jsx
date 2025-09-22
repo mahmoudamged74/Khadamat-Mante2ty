@@ -30,7 +30,7 @@ const Accessories = () => {
       discount: "30%",
       subtitle: "Trendy collection",
       cta: "Shop now!",
-      image: "/public/assets/banner.png",
+      image: "/assets/banner.png",
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ const Accessories = () => {
       discount: "25%",
       subtitle: "Tech essentials",
       cta: "Explore!",
-      image: "/public/assets/banner2.webp",
+      image: "/assets/banner2.webp",
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ const Accessories = () => {
       discount: "20%",
       subtitle: "Decorate your space",
       cta: "Discover!",
-      image: "/public/assets/banner3.webp",
+      image: "/assets/banner3.webp",
     },
   ];
 
@@ -71,8 +71,8 @@ const Accessories = () => {
       availability: "متاح اونلاين إلى 10:00 م",
       discount: "15%",
       rating: 4.8,
-      image: "/public/assets/chain.webp",
-      logo: "/public/assets/acc.svg",
+      image: "/assets/chain.webp",
+      logo: "/assets/acc.svg",
       category: "jewelry",
     },
     {
@@ -82,8 +82,8 @@ const Accessories = () => {
       availability: "متاح اونلاين إلى 9:00 م",
       discount: "20%",
       rating: 4.6,
-      image: "/public/assets/chain.webp",
-      logo: "/public/assets/acc.svg",
+      image: "/assets/chain.webp",
+      logo: "/assets/acc.svg",
       category: "fashion",
     },
     {
@@ -93,8 +93,8 @@ const Accessories = () => {
       availability: "متاح اونلاين إلى 11:00 م",
       discount: "12%",
       rating: 4.4,
-      image: "/public/assets/chain.webp",
-      logo: "/public/assets/acc.svg",
+      image: "/assets/chain.webp",
+      logo: "/assets/acc.svg",
       category: "electronics",
     },
     {
@@ -104,8 +104,8 @@ const Accessories = () => {
       availability: "متاح اونلاين إلى 8:00 م",
       discount: "18%",
       rating: 4.7,
-      image: "/public/assets/chain.webp",
-      logo: "/public/assets/acc.svg",
+      image: "/assets/chain.webp",
+      logo: "/assets/acc.svg",
       category: "home",
     },
     {
@@ -115,8 +115,8 @@ const Accessories = () => {
       availability: "متاح اونلاين إلى 9:30 م",
       discount: "22%",
       rating: 4.9,
-      image: "/public/assets/chain.webp",
-      logo: "/public/assets/acc.svg",
+      image: "/assets/chain.webp",
+      logo: "/assets/acc.svg",
       category: "jewelry",
     },
     {
@@ -126,8 +126,8 @@ const Accessories = () => {
       availability: "متاح اونلاين إلى 7:00 م",
       discount: "10%",
       rating: 4.3,
-      image: "/public/assets/chain.webp",
-      logo: "/public/assets/acc.svg",
+      image: "/assets/chain.webp",
+      logo: "/assets/acc.svg",
       category: "electronics",
     },
   ];

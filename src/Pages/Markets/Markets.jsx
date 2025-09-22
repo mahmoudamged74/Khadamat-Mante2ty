@@ -30,7 +30,7 @@ const Markets = () => {
       discount: "50%",
       subtitle: "This weekend only",
       cta: "Shop now!",
-      image: "/public/assets/banner.png",
+      image: "/assets/banner.png",
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ const Markets = () => {
       discount: "30%",
       subtitle: "Limited time offer",
       cta: "Shop now!",
-      image: "/public/assets/banner2.webp",
+      image: "/assets/banner2.webp",
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ const Markets = () => {
       discount: "25%",
       subtitle: "Best products",
       cta: "Shop now!",
-      image: "/public/assets/banner3.webp",
+      image: "/assets/banner3.webp",
     },
   ];
 
@@ -68,8 +68,8 @@ const Markets = () => {
       availability: "متاح اونلاين إلى 11:59 م",
       discount: "5%",
       rating: 4.5,
-      image: "/public/assets/cart.webp",
-      logo: "/public/assets/cart.webp",
+      image: "/assets/cart.webp",
+      logo: "/assets/cart.webp",
       category: "supermarket",
     },
     {
@@ -79,8 +79,8 @@ const Markets = () => {
       availability: "متاح اونلاين إلى 12:00 ص",
       discount: "15%",
       rating: 4.8,
-      image: "/public/assets/cart.webp",
-      logo: "/public/assets/cart.webp",
+      image: "/assets/cart.webp",
+      logo: "/assets/cart.webp",
       category: "grocery",
     },
     {
@@ -90,8 +90,8 @@ const Markets = () => {
       availability: "متاح اونلاين إلى 10:00 م",
       discount: "10%",
       rating: 4.7,
-      image: "/public/assets/cart.webp",
-      logo: "/public/assets/cart.webp",
+      image: "/assets/cart.webp",
+      logo: "/assets/cart.webp",
       category: "vegetables",
     },
     {
@@ -101,8 +101,8 @@ const Markets = () => {
       availability: "متاح اونلاين إلى 11:30 م",
       discount: "20%",
       rating: 4.6,
-      image: "/public/assets/cart.webp",
-      logo: "/public/assets/cart.webp",
+      image: "/assets/cart.webp",
+      logo: "/assets/cart.webp",
       category: "fruits",
     },
     {
@@ -112,8 +112,8 @@ const Markets = () => {
       availability: "متاح اونلاين إلى 9:00 م",
       discount: "8%",
       rating: 4.4,
-      image: "/public/assets/cart.webp",
-      logo: "/public/assets/cart.webp",
+      image: "/assets/cart.webp",
+      logo: "/assets/cart.webp",
       category: "supermarket",
     },
     {
@@ -123,8 +123,8 @@ const Markets = () => {
       availability: "متاح اونلاين إلى 11:00 م",
       discount: "12%",
       rating: 4.9,
-      image: "/public/assets/cart.webp",
-      logo: "/public/assets/cart.webp",
+      image: "/assets/cart.webp",
+      logo: "/assets/cart.webp",
       category: "grocery",
     },
   ];

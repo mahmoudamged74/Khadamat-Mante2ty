@@ -37,8 +37,8 @@ const LibraryDetail = () => {
     rating: 4.8,
     workingHours: "وقت العمل : 8 ص : 10 م",
     address: "شارع التحرير، وسط البلد",
-    logo: "/public/assets/library.jpg",
-    heroImage: "/public/assets/library.jpg",
+    logo: "/assets/library.jpg",
+    heroImage: "/assets/library.jpg",
     category: "academic",
   };
 
@@ -46,17 +46,17 @@ const LibraryDetail = () => {
   const photos = [
     {
       id: 1,
-      image: "/public/assets/library.jpg",
+      image: "/assets/library.jpg",
       title: "قسم الكتب الأكاديمية",
     },
     {
       id: 2,
-      image: "/public/assets/library.jpg",
+      image: "/assets/library.jpg",
       title: "قسم الأدب والروايات",
     },
     {
       id: 3,
-      image: "/public/assets/library.jpg",
+      image: "/assets/library.jpg",
       title: "قسم كتب الأطفال",
     },
   ];
@@ -68,7 +68,7 @@ const LibraryDetail = () => {
       title: "عرض الكتب الأكاديمية",
       description: "كتب جامعية بخصم 20%",
       discount: "20%",
-      image: "/public/assets/library.jpg",
+      image: "/assets/library.jpg",
       price: 150,
     },
     {
@@ -76,7 +76,7 @@ const LibraryDetail = () => {
       title: "عرض الروايات العالمية",
       description: "روايات مترجمة بخصم 25%",
       discount: "25%",
-      image: "/public/assets/library.jpg",
+      image: "/assets/library.jpg",
       price: 80,
     },
   ];
@@ -87,7 +87,7 @@ const LibraryDetail = () => {
       id: 1,
       name: "مبادئ الفيزياء العامة",
       description: "كتاب شامل لمبادئ الفيزياء الأساسية",
-      image: "/public/assets/library.jpg",
+      image: "/assets/library.jpg",
       price: 200,
       sizes: ["نسخة ورقية", "نسخة إلكترونية", "نسخة صوتية"],
       storeName: "مكتبة المعرفة العامة",
@@ -96,7 +96,7 @@ const LibraryDetail = () => {
       id: 2,
       name: "تاريخ الأدب العربي",
       description: "مرجع شامل لتاريخ الأدب العربي عبر العصور",
-      image: "/public/assets/library.jpg",
+      image: "/assets/library.jpg",
       price: 180,
       sizes: ["نسخة ورقية", "نسخة إلكترونية", "نسخة صوتية"],
       storeName: "مكتبة المعرفة العامة",
@@ -111,7 +111,7 @@ const LibraryDetail = () => {
       address: "شارع المعادي، المعادي",
       workingHours: "وقت العمل : 8 ص : 10م",
       rating: 4.7,
-      image: "/public/assets/library.jpg",
+      image: "/assets/library.jpg",
     },
     {
       id: 2,
@@ -119,7 +119,7 @@ const LibraryDetail = () => {
       address: "شارع الزمالك، الزمالك",
       workingHours: "وقت العمل : 8 ص : 10م",
       rating: 4.9,
-      image: "/public/assets/library.jpg",
+      image: "/assets/library.jpg",
     },
   ];
 

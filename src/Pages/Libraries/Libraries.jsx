@@ -30,7 +30,7 @@ const Libraries = () => {
       discount: "30%",
       subtitle: "Knowledge collection",
       cta: "Explore now!",
-      image: "/public/assets/banner.png",
+      image: "/assets/banner.png",
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ const Libraries = () => {
       discount: "25%",
       subtitle: "Study materials",
       cta: "Discover!",
-      image: "/public/assets/banner2.webp",
+      image: "/assets/banner2.webp",
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ const Libraries = () => {
       discount: "20%",
       subtitle: "Online access",
       cta: "Learn more!",
-      image: "/public/assets/banner3.webp",
+      image: "/assets/banner3.webp",
     },
   ];
 
@@ -68,8 +68,8 @@ const Libraries = () => {
       availability: "متاح اونلاين إلى 10:00 م",
       discount: "15%",
       rating: 4.8,
-      image: "/public/assets/library.jpg",
-      logo: "/public/assets/library.jpg",
+      image: "/assets/library.jpg",
+      logo: "/assets/library.jpg",
       category: "academic",
     },
     {
@@ -79,8 +79,8 @@ const Libraries = () => {
       availability: "متاح اونلاين إلى 9:00 م",
       discount: "20%",
       rating: 4.6,
-      image: "/public/assets/library.jpg",
-      logo: "/public/assets/library.jpg",
+      image: "/assets/library.jpg",
+      logo: "/assets/library.jpg",
       category: "children",
     },
     {
@@ -90,8 +90,8 @@ const Libraries = () => {
       availability: "متاح اونلاين إلى 11:00 م",
       discount: "12%",
       rating: 4.4,
-      image: "/public/assets/library.jpg",
-      logo: "/public/assets/library.jpg",
+      image: "/assets/library.jpg",
+      logo: "/assets/library.jpg",
       category: "fiction",
     },
     {
@@ -101,8 +101,8 @@ const Libraries = () => {
       availability: "متاح اونلاين إلى 8:00 م",
       discount: "18%",
       rating: 4.7,
-      image: "/public/assets/library.jpg",
-      logo: "/public/assets/library.jpg",
+      image: "/assets/library.jpg",
+      logo: "/assets/library.jpg",
       category: "reference",
     },
     {
@@ -112,8 +112,8 @@ const Libraries = () => {
       availability: "متاح اونلاين إلى 9:30 م",
       discount: "22%",
       rating: 4.9,
-      image: "/public/assets/library.jpg",
-      logo: "/public/assets/library.jpg",
+      image: "/assets/library.jpg",
+      logo: "/assets/library.jpg",
       category: "academic",
     },
     {
@@ -123,8 +123,8 @@ const Libraries = () => {
       availability: "متاح اونلاين إلى 7:00 م",
       discount: "10%",
       rating: 4.3,
-      image: "/public/assets/library.jpg",
-      logo: "/public/assets/library.jpg",
+      image: "/assets/library.jpg",
+      logo: "/assets/library.jpg",
       category: "reference",
     },
   ];

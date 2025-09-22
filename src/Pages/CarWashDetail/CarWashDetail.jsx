@@ -36,8 +36,8 @@ const CarWashDetail = () => {
     rating: 4.8,
     workingHours: "وقت العمل : 8 ص : 10 م",
     address: "شارع التحرير، وسط البلد",
-    logo: "/public/assets/car-garage.jpg",
-    heroImage: "/public/assets/car-garage.jpg",
+    logo: "/assets/car-garage.jpg",
+    heroImage: "/assets/car-garage.jpg",
     category: "basic",
   };
 
@@ -45,17 +45,17 @@ const CarWashDetail = () => {
   const photos = [
     {
       id: 1,
-      image: "/public/assets/car-garage.jpg",
+      image: "/assets/car-garage.jpg",
       title: "منطقة الغسيل الخارجي",
     },
     {
       id: 2,
-      image: "/public/assets/car-garage.jpg",
+      image: "/assets/car-garage.jpg",
       title: "منطقة التفصيل الداخلي",
     },
     {
       id: 3,
-      image: "/public/assets/car-garage.jpg",
+      image: "/assets/car-garage.jpg",
       title: "منطقة الصيانة السريعة",
     },
   ];
@@ -67,7 +67,7 @@ const CarWashDetail = () => {
       title: "عرض الغسيل الشامل",
       description: "غسيل خارجي وداخلي بخصم 20%",
       discount: "20%",
-      image: "/public/assets/car-garage.jpg",
+      image: "/assets/car-garage.jpg",
       price: 150,
     },
     {
@@ -75,7 +75,7 @@ const CarWashDetail = () => {
       title: "عرض التفصيل المميز",
       description: "تفصيل كامل للسيارة بخصم 25%",
       discount: "25%",
-      image: "/public/assets/car-garage.jpg",
+      image: "/assets/car-garage.jpg",
       price: 300,
     },
   ];
@@ -86,7 +86,7 @@ const CarWashDetail = () => {
       id: 1,
       name: "باقة الغسيل الأساسي",
       description: "غسيل خارجي شامل مع تنظيف الإطارات",
-      image: "/public/assets/car-garage.jpg",
+      image: "/assets/car-garage.jpg",
       price: 80,
       sizes: ["سيارة صغيرة", "سيارة متوسطة", "سيارة كبيرة"],
       storeName: "مغسلة السيارات الذكية",
@@ -95,7 +95,7 @@ const CarWashDetail = () => {
       id: 2,
       name: "باقة التفصيل المتقدم",
       description: "تفصيل شامل للسيارة مع تلميع وتنظيف داخلي",
-      image: "/public/assets/car-garage.jpg",
+      image: "/assets/car-garage.jpg",
       price: 200,
       sizes: ["سيارة صغيرة", "سيارة متوسطة", "سيارة كبيرة"],
       storeName: "مغسلة السيارات الذكية",
@@ -110,7 +110,7 @@ const CarWashDetail = () => {
       address: "شارع المعادي، المعادي",
       workingHours: "وقت العمل : 8 ص : 10م",
       rating: 4.7,
-      image: "/public/assets/car-garage.jpg",
+      image: "/assets/car-garage.jpg",
     },
     {
       id: 2,
@@ -118,7 +118,7 @@ const CarWashDetail = () => {
       address: "شارع الزمالك، الزمالك",
       workingHours: "وقت العمل : 8 ص : 10م",
       rating: 4.9,
-      image: "/public/assets/car-garage.jpg",
+      image: "/assets/car-garage.jpg",
     },
   ];
 
