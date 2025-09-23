@@ -37,8 +37,9 @@ const LibraryDetail = () => {
     rating: 4.8,
     workingHours: "وقت العمل : 8 ص : 10 م",
     address: "شارع التحرير، وسط البلد",
-    logo: "/assets/library.jpg",
-    heroImage: "/assets/library.jpg",
+    logo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=center",
+    heroImage:
+      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200&h=400&fit=crop&crop=center",
     category: "academic",
   };
 
@@ -46,17 +47,20 @@ const LibraryDetail = () => {
   const photos = [
     {
       id: 1,
-      image: "/assets/library.jpg",
+      image:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=center",
       title: "قسم الكتب الأكاديمية",
     },
     {
       id: 2,
-      image: "/assets/library.jpg",
+      image:
+        "/assets/7945313.jpg",
       title: "قسم الأدب والروايات",
     },
     {
       id: 3,
-      image: "/assets/library.jpg",
+      image:
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop&crop=center",
       title: "قسم كتب الأطفال",
     },
   ];
@@ -68,7 +72,8 @@ const LibraryDetail = () => {
       title: "عرض الكتب الأكاديمية",
       description: "كتب جامعية بخصم 20%",
       discount: "20%",
-      image: "/assets/library.jpg",
+      image:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=center",
       price: 150,
     },
     {
@@ -76,7 +81,8 @@ const LibraryDetail = () => {
       title: "عرض الروايات العالمية",
       description: "روايات مترجمة بخصم 25%",
       discount: "25%",
-      image: "/assets/library.jpg",
+      image:
+        "https://images.unsplash.com/photo-1507842213573-5533ce8c1e2b?w=400&h=300&fit=crop&crop=center",
       price: 80,
     },
   ];
@@ -85,19 +91,61 @@ const LibraryDetail = () => {
   const books = [
     {
       id: 1,
-      name: "مبادئ الفيزياء العامة",
-      description: "كتاب شامل لمبادئ الفيزياء الأساسية",
-      image: "/assets/library.jpg",
-      price: 200,
+      name: "المعاصر في الرياضيات - الصف الثالث الثانوي",
+      description: "كتاب المعاصر الشامل في الرياضيات للثانوية العامة",
+      image:
+        "/assets/7945313.jpg",
+      price: 120,
       sizes: ["نسخة ورقية", "نسخة إلكترونية", "نسخة صوتية"],
       storeName: "مكتبة المعرفة العامة",
     },
     {
       id: 2,
-      name: "تاريخ الأدب العربي",
-      description: "مرجع شامل لتاريخ الأدب العربي عبر العصور",
-      image: "/assets/library.jpg",
-      price: 180,
+      name: "المعاصر في الفيزياء - الصف الثاني الثانوي",
+      description: "كتاب المعاصر المتميز في الفيزياء للثانوية العامة",
+      image:
+        "/assets/7945313.jpg",
+      price: 110, 
+      sizes: ["نسخة ورقية", "نسخة إلكترونية", "نسخة صوتية"],
+      storeName: "مكتبة المعرفة العامة",
+    },
+    {
+      id: 3,
+      name: "المعاصر في الكيمياء - الصف الأول الثانوي",
+      description: "كتاب المعاصر المتقدم في الكيمياء للثانوية العامة",
+      image:
+        "/assets/7945313.jpg",
+      price: 100,
+      sizes: ["نسخة ورقية", "نسخة إلكترونية", "نسخة صوتية"],
+      storeName: "مكتبة المعرفة العامة",
+    },
+    {
+      id: 4,
+      name: "المعاصر في الأحياء - الصف الثالث الثانوي",
+      description: "كتاب المعاصر الشامل في الأحياء للثانوية العامة",
+      image:
+        "/assets/7945313.jpg",
+      price: 115,
+      sizes: ["نسخة ورقية", "نسخة إلكترونية", "نسخة صوتية"],
+      storeName: "مكتبة المعرفة العامة",
+    },
+    {
+      id: 5,
+      name: "المعاصر في اللغة العربية - الصف الثاني الثانوي",
+      description: "كتاب المعاصر المتميز في اللغة العربية للثانوية العامة",
+      image:
+        "/assets/7945313.jpg",
+      price: 95,
+      sizes: ["نسخة ورقية", "نسخة إلكترونية", "نسخة صوتية"],
+      storeName: "مكتبة المعرفة العامة",
+    },
+    {
+      id: 6,
+      name: "المعاصر في اللغة الإنجليزية - الصف الأول الثانوي",
+      description: "كتاب المعاصر المتقدم في اللغة الإنجليزية للثانوية العامة",
+      image:
+        "/assets/7945313.jpg",
+      price: 90,
       sizes: ["نسخة ورقية", "نسخة إلكترونية", "نسخة صوتية"],
       storeName: "مكتبة المعرفة العامة",
     },
@@ -111,7 +159,8 @@ const LibraryDetail = () => {
       address: "شارع المعادي، المعادي",
       workingHours: "وقت العمل : 8 ص : 10م",
       rating: 4.7,
-      image: "/assets/library.jpg",
+      image:
+        "/assets/7945313.jpg",
     },
     {
       id: 2,
@@ -119,7 +168,8 @@ const LibraryDetail = () => {
       address: "شارع الزمالك، الزمالك",
       workingHours: "وقت العمل : 8 ص : 10م",
       rating: 4.9,
-      image: "/assets/library.jpg",
+      image:
+        "/assets/7945313.jpg",
     },
   ];
 

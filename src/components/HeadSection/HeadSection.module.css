@@ -58,7 +58,9 @@
 
 /* RTL Support */
 
-
+[dir="rtl"] .textContent {
+  text-align: right;
+}
 
 /* Responsive Design */
 @media (max-width: 991.98px) {

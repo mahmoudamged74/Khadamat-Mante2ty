@@ -1,0 +1,704 @@
+/* Pharmacy Detail Page Styles */
+.pharmacyDetailPage {
+  min-height: 100vh;
+  background: #f8f9fa;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+/* Header */
+.header {
+  background: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.backButton {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.backButton:hover {
+  color: #2a5bb8;
+  text-decoration: none;
+}
+
+.pageTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 0;
+  text-align: center;
+  flex: 1;
+}
+
+.headerActions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.actionButton {
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  z-index: 10;
+}
+
+.actionButton:hover {
+  background: #f8f9fa;
+  color: var(--primary-color);
+}
+
+/* Hero Section */
+.heroSection {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.heroImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heroOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pharmacyLogo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pharmacyLogo img {
+  width: 80px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/* Pharmacy Info */
+.pharmacyInfo {
+  background: white;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.pharmacyDetails {
+  flex: 1;
+}
+
+.pharmacyName {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.pharmacyDescription {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.pharmacyMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.metaIcon {
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+
+.pharmacyActions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 200px;
+}
+
+.primaryButton {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.primaryButton:hover {
+  background: #2a5bb8;
+  transform: translateY(-2px);
+}
+
+.secondaryButton {
+  background: white;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.secondaryButton:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+/* Sections */
+.photosSection,
+.offersSection,
+.medicinesSection {
+  background: white;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+/* Branches Section */
+.branchesSection {
+  background: white;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.branchesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.branchCard {
+  background: #f8f9fa;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid #e9ecef;
+}
+
+.branchCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.branchImage {
+  height: 150px;
+  overflow: hidden;
+}
+
+.branchImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.branchContent {
+  padding: 1.5rem;
+}
+
+.branchName {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.branchInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.branchItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.branchIcon {
+  color: var(--primary-color);
+  font-size: 1rem;
+  width: 16px;
+}
+
+.phoneNumber {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+/* Offers Grid */
+.offersGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.offerCard {
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.offerCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.offerImage {
+  position: relative;
+  height: 120px;
+  overflow: hidden;
+}
+
+.offerImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.offerDiscount {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: var(--primary-color);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.offerContent {
+  padding: 0.8rem;
+}
+
+.offerTitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 0.3rem;
+}
+
+.offerDescription {
+  color: #666;
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.offerPrice {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #28a745;
+}
+
+/* Search Section */
+.searchSection {
+  margin-bottom: 2rem;
+}
+
+.searchContainer {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 1rem 3rem 1rem 1rem;
+  border: 2px solid #e9ecef;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(24, 65, 147, 0.1);
+}
+
+.searchIcon {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  font-size: 1.2rem;
+  pointer-events: none;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.tab {
+  background: white;
+  border: 2px solid #e9ecef;
+  color: #666;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+.tab:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.tab.active {
+  background: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.tabIcon {
+  font-size: 1rem;
+}
+
+/* Medicines Grid */
+.medicinesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.medicineCard {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  cursor: pointer;
+}
+
+.medicineCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: inherit;
+}
+
+.medicineCard:hover .actionButton {
+  pointer-events: auto;
+}
+
+.medicineImage {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.medicineImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.medicineActions {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.medicineContent {
+  padding: 1.5rem;
+}
+
+.medicineName {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.medicineDescription {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.medicinePrice {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #28a745;
+  margin-bottom: 1rem;
+}
+
+.medicineSizes {
+  margin-bottom: 1rem;
+}
+
+.medicineSizes h4 {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.sizeButtons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.sizeButton {
+  background: white;
+  border: 1px solid #e9ecef;
+  color: #666;
+  padding: 0.4rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sizeButton:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.sizeButton.active {
+  background: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.sizeTag {
+  background: #e9ecef;
+  color: #666;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+/* RTL Support */
+.rtl .backButton {
+  flex-direction: row-reverse;
+}
+
+.rtl .searchIcon {
+  right: auto;
+  left: 1rem;
+}
+
+.rtl .searchInput {
+  padding: 1rem 1rem 1rem 3rem;
+}
+
+.rtl .metaItem {
+  flex-direction: row-reverse;
+}
+
+.rtl .tab {
+  flex-direction: row-reverse;
+}
+
+.rtl .sizeButtons {
+  flex-direction: row-reverse;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .headerContent {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .pageTitle {
+    font-size: 1.2rem;
+  }
+
+  .pharmacyInfo {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .pharmacyActions {
+    min-width: auto;
+    width: 100%;
+  }
+
+  .pharmacyName {
+    font-size: 1.5rem;
+  }
+
+  .pharmacyMeta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .tabs {
+    justify-content: center;
+  }
+
+  .tab {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .medicinesGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .offersGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .branchesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .searchContainer {
+    max-width: 100%;
+  }
+
+  .searchInput {
+    font-size: 0.9rem;
+    padding: 0.8rem 2.5rem 0.8rem 0.8rem;
+  }
+
+  .rtl .searchInput {
+    padding: 0.8rem 0.8rem 0.8rem 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroSection {
+    height: 200px;
+  }
+
+  .pharmacyLogo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .pharmacyLogo img {
+    width: 60px;
+    height: 30px;
+  }
+
+  .pharmacyName {
+    font-size: 1.3rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.2rem;
+  }
+
+  .tab {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .medicineContent {
+    padding: 1rem;
+  }
+
+  .medicineName {
+    font-size: 1.1rem;
+  }
+}

@@ -29,7 +29,8 @@ const OffersSection = () => {
       originalPrice: 80.0,
       discountedPrice: 66.0,
       discount: "10%",
-      image: "/assets/shelcal.jpg",
+      image:
+        "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=300&fit=crop&crop=center",
       link: "/product/shelcal",
     },
     {
@@ -39,7 +40,8 @@ const OffersSection = () => {
       originalPrice: 15.0,
       discountedPrice: 12.0,
       discount: "10%",
-      image: "/assets/supradyn.jpg",
+      image:
+        "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400&h=300&fit=crop&crop=center",
       link: "/product/supradyn",
     },
     {
@@ -49,7 +51,8 @@ const OffersSection = () => {
       originalPrice: 20.0,
       discountedPrice: 34.0,
       discount: "10%",
-      image: "/assets/accucheck.jpg",
+      image:
+        "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400&h=300&fit=crop&crop=center",
       link: "/product/accucheck",
     },
     {
@@ -59,7 +62,8 @@ const OffersSection = () => {
       originalPrice: 12.0,
       discountedPrice: 8.5,
       discount: "10%",
-      image: "/assets/curaskin.jpg",
+      image:
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&h=300&fit=crop&crop=center",
       link: "/product/curaskin",
     },
     {
@@ -69,7 +73,8 @@ const OffersSection = () => {
       originalPrice: 25.0,
       discountedPrice: 20.0,
       discount: "20%",
-      image: "/assets/vitamin-d3.jpg",
+      image:
+        "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=300&fit=crop&crop=center",
       link: "/product/vitamin-d3",
     },
     {
@@ -79,7 +84,8 @@ const OffersSection = () => {
       originalPrice: 35.0,
       discountedPrice: 28.0,
       discount: "20%",
-      image: "/assets/omega-3.jpg",
+      image:
+        "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=300&fit=crop&crop=center",
       link: "/product/omega-3",
     },
   ];

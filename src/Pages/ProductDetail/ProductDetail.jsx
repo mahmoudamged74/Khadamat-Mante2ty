@@ -28,10 +28,12 @@ const ProductDetail = () => {
     price: 200,
     originalPrice: 250,
     discount: "20%",
-    image: "/assets/bread-table.webp",
+    image:
+      "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=600&h=400&fit=crop&crop=center",
     sizes: ["S", "M", "L"],
     storeName: "Heart Attack",
-    storeLogo: "/assets/22.svg",
+    storeLogo:
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=100&h=100&fit=crop&crop=center",
     storeRating: 4.5,
     storeAddress: "32 ش فيصل الجيزة",
     storeWorkingHours: "وقت العمل : 12 ص : 12 م",

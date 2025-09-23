@@ -12,7 +12,8 @@ import "swiper/css/pagination";
 import styles from "./HeroSection.module.css";
 
 const HeroSection = () => {
-  const { t } = useTranslation("global");
+  const { t, i18n } = useTranslation("global");
+  const direction = i18n.language === "ar" ? "rtl" : "ltr";
 
   // Sample data - يمكن استبدالها ببيانات حقيقية
   const heroSlides = [
@@ -22,7 +23,8 @@ const HeroSection = () => {
       description:
         t("hero_description_1") ||
         "نحن نقدم أفضل الخدمات لجميع احتياجاتك اليومية في مكان واحد",
-      image: "/assets/cart.webp",
+      image:
+        "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=1200&h=600&fit=crop&crop=center",
       discount: "50%",
       discountText:
         t("hero_discount") || "احصل على خصم يصل إلى 50% على أول زيارة",
@@ -32,7 +34,8 @@ const HeroSection = () => {
       title: t("hero_title_2") || "أفضل المطاعم في منطقتك",
       description:
         t("hero_description_2") || "اكتشف مجموعة متنوعة من المطاعم الشهية",
-      image: "/assets/ceiling.webp",
+      image:
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&h=600&fit=crop&crop=center",
       discount: "30%",
       discountText: t("hero_discount_2") || "خصم خاص على الطلبات الأولى",
     },
@@ -42,7 +45,8 @@ const HeroSection = () => {
       description:
         t("hero_description_3") ||
         "احصل على أفضل الخدمات الطبية من أطباء متخصصين",
-      image: "/assets/people.webp",
+      image:
+      "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=1200&h=600&fit=crop&crop=center",
       discount: "25%",
       discountText: t("hero_discount_3") || "استشارة طبية مجانية",
     },
@@ -78,64 +82,123 @@ const HeroSection = () => {
             <SwiperSlide key={slide.id}>
               <div className={styles.slide}>
                 <div className="row align-items-center min-vh-100">
-                  {/* Content Side */}
+                  {direction === "rtl" ? (
+                    <>
+                      <div className="col-lg-6 col-md-6">
+                        <div className={styles.imageSide}>
+                          {/* Main Image */}
+                          <div className={styles.imageContainer}>
+                            <img
+                              src={slide.image}
+                              alt={slide.title}
+                              className={styles.heroImage}
+                              onError={(e) => {
+                                e.target.src =
+                                  "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjRjhGOUZBIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMTUwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNkM3NTdEIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiPkltYWdlIFBsYWNlaG9sZGVyPC90ZXh0Pgo8L3N2Zz4K";
+                              }}
+                            />
+                          </div>
 
-                  {/* Image Side */}
-                  <div className="col-lg-6 col-md-6">
-                    <div className={styles.imageSide}>
-                      {/* Main Image */}
-                      <div className={styles.imageContainer}>
-                        <img
-                          src={slide.image}
-                          alt={slide.title}
-                          className={styles.heroImage}
-                          onError={(e) => {
-                            e.target.src =
-                              "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjRjhGOUZBIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMTUwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNkM3NTdEIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiPkltYWdlIFBsYWNlaG9sZGVyPC90ZXh0Pgo8L3N2Zz4K";
-                          }}
-                        />
+                          {/* Decorative Clouds */}
+                          <div className={styles.imageClouds}>
+                            <div className={styles.cloud4}></div>
+                            <div className={styles.cloud5}></div>
+                            <div className={styles.cloud6}></div>
+                          </div>
+                        </div>
                       </div>
+                      <div className="col-lg-6 col-md-6">
+                        <div className={styles.contentSide}>
+                          <div className={styles.welcomeBadge}>
+                            {t("welcome_to") || "مرحباً بك في"}
+                          </div>
+                          <h1 className={styles.mainTitle}>{slide.title}</h1>
+                          <p className={styles.description}>
+                            {slide.description}
+                          </p>
+                          <div className={styles.actionButtons}>
+                            <Link
+                              to="/services"
+                              className={styles.primaryButton}
+                            >
+                              {t("buy_now")}
+                            </Link>
+                            <Link
+                              to="/about"
+                              className={styles.secondaryButton}
+                            >
+                              {t("view_more")}
+                            </Link>
+                          </div>
 
-                      {/* Decorative Clouds */}
-                      <div className={styles.imageClouds}>
-                        <div className={styles.cloud4}></div>
-                        <div className={styles.cloud5}></div>
-                        <div className={styles.cloud6}></div>
+                          {/* Decorative Clouds */}
+                          <div className={styles.decorativeClouds}>
+                            <div className={styles.cloud1}></div>
+                            <div className={styles.cloud2}></div>
+                            <div className={styles.cloud3}></div>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
+                    </>
+                  ) : (
+                    <>
+                      <div className="col-lg-6 col-md-6">
+                        <div className={styles.contentSide}>
+                          <div className={styles.welcomeBadge}>
+                            {t("welcome_to") || "مرحباً بك في"}
+                          </div>
+                          <h1 className={styles.mainTitle}>{slide.title}</h1>
+                          <p className={styles.description}>
+                            {slide.description}
+                          </p>
+                          <div className={styles.actionButtons}>
+                            <Link
+                              to="/services"
+                              className={styles.primaryButton}
+                            >
+                              {t("buy_now")}
+                            </Link>
+                            <Link
+                              to="/about"
+                              className={styles.secondaryButton}
+                            >
+                              {t("view_more")}
+                            </Link>
+                          </div>
 
-                  <div className="col-lg-6 col-md-6">
-                    <div className={styles.contentSide}>
-                      {/* Welcome Badge */}
-                      <div className={styles.welcomeBadge}>
-                        {t("welcome_to") || "مرحباً بك في"}
+                          {/* Decorative Clouds */}
+                          <div className={styles.decorativeClouds}>
+                            <div className={styles.cloud1}></div>
+                            <div className={styles.cloud2}></div>
+                            <div className={styles.cloud3}></div>
+                          </div>
+                        </div>
                       </div>
+                      <div className="col-lg-6 col-md-6">
+                        <div className={styles.imageSide}>
+                          {/* Main Image */}
+                          <div className={styles.imageContainer}>
+                            <img
+                              src={slide.image}
+                              alt={slide.title}
+                              className={styles.heroImage}
+                              onError={(e) => {
+                                e.target.src =
+                                  "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjRjhGOUZBIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMTUwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNkM3NTdEIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiPkltYWdlIFBsYWNlaG9sZGVyPC90ZXh0Pgo8L3N2Zz4K";
+                              }}
+                            />
+                          </div>
 
-                      {/* Main Title */}
-                      <h1 className={styles.mainTitle}>{slide.title}</h1>
-
-                      {/* Description */}
-                      <p className={styles.description}>{slide.description}</p>
-
-                      {/* Action Buttons */}
-                      <div className={styles.actionButtons}>
-                        <Link to="/services" className={styles.primaryButton}>
-                          {t("buy_now")}
-                        </Link>
-                        <Link to="/about" className={styles.secondaryButton}>
-                          {t("view_more")}
-                        </Link>
+                          {/* Decorative Clouds */}
+                          <div className={styles.imageClouds}>
+                            <div className={styles.cloud4}></div>
+                            <div className={styles.cloud5}></div>
+                            <div className={styles.cloud6}></div>
+                          </div>
+                        </div>
                       </div>
-
-                      {/* Decorative Clouds */}
-                      <div className={styles.decorativeClouds}>
-                        <div className={styles.cloud1}></div>
-                        <div className={styles.cloud2}></div>
-                        <div className={styles.cloud3}></div>
-                      </div>
-                    </div>
-                  </div>
+                    </>
+                  )}
                 </div>
               </div>
             </SwiperSlide>

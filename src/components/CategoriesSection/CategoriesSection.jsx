@@ -17,37 +17,43 @@ const CategoriesSection = () => {
     {
       id: 1,
       name: t("restaurants"),
-      image: "/assets/ceiling.webp",
+      image:
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&h=300&fit=crop&crop=center",
       link: "/restaurants",
     },
     {
       id: 2,
       name: t("markets"),
-      image: "/assets/cart.webp",
+      image:
+        "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=300&fit=crop&crop=center",
       link: "/markets",
     },
     {
       id: 3,
       name: t("clinics"),
-      image: "/assets/people.webp",
+      image:
+        "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=400&h=300&fit=crop&crop=center",
       link: "/clinics",
     },
     {
       id: 4,
       name: t("libraries"),
-      image: "/assets/library.webp",
+      image:
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop&crop=center",
       link: "/libraries",
     },
     {
       id: 5,
       name: t("accessories"),
-      image: "/assets/chain.webp",
+      image:
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=300&fit=crop&crop=center",
       link: "/accessories",
     },
     {
       id: 6,
       name: t("car_wash"),
-      image: "/assets/car-garage.webp",
+      image:
+        "/assets/washing.jpg",
       link: "/car-wash",
     },
   ];

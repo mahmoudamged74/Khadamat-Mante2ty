@@ -28,10 +28,10 @@ const AccessoryProductDetail = () => {
     price: 2500,
     originalPrice: 3200,
     discount: "22%",
-    image: "/assets/chain.webp",
+    image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=300&fit=crop&crop=center",
     sizes: ["16", "17", "18", "19"],
     storeName: "محل الذهب الأصيل",
-    storeLogo: "/assets/acc.svg",
+    storeLogo: "/public/assets/acc.svg",
     storeRating: 4.8,
     storeAddress: "شارع التحرير، وسط البلد",
     storeWorkingHours: "وقت العمل : 9 ص : 10 م",
@@ -84,11 +84,7 @@ const AccessoryProductDetail = () => {
       <div className={styles.productInfo}>
         <div className={styles.storeInfo}>
           <div className={styles.storeLogo}>
-            <img
-              src={product.storeLogo}
-              alt={product.storeName}
-              loading="lazy"
-            />
+            <img src={product.storeLogo} alt={product.storeName} loading="lazy" />
           </div>
           <div className={styles.storeDetails}>
             <h3 className={styles.storeName}>{product.storeName}</h3>

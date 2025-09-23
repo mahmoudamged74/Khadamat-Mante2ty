@@ -30,7 +30,7 @@ const Restaurants = () => {
       discount: "50%",
       subtitle: "This weekend only",
       cta: "Order now!",
-      image: "/assets/banner.png",
+      image: "assets/banner.png",
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ const Restaurants = () => {
       discount: "30%",
       subtitle: "Limited time offer",
       cta: "Order now!",
-      image: "/assets/banner2.webp",
+      image: "assets/banner.png",
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ const Restaurants = () => {
       discount: "25%",
       subtitle: "Best ingredients",
       cta: "Order now!",
-      image: "/assets/banner3.webp",
+      image: "assets/banner.png",
     },
   ];
 
@@ -68,8 +68,9 @@ const Restaurants = () => {
       availability: "متاح اونلاين إلى 11:59 م",
       discount: "5%",
       rating: 4.5,
-      image: "/assets/bread-table.webp",
-      logo: "/assets/bread-table.webp",
+      image:
+        "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400&h=300&fit=crop&crop=center",
+      logo: "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=100&h=100&fit=crop&crop=center",
       category: "seafood",
     },
     {
@@ -80,8 +81,9 @@ const Restaurants = () => {
       availability: "متاح اونلاين إلى 12:00 ص",
       discount: "15%",
       rating: 6.5,
-      image: "/assets/bread-table.webp",
-      logo: "/assets/bread-table.webp",
+      image:
+        "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400&h=300&fit=crop&crop=center",
+      logo: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=100&h=100&fit=crop&crop=center",
       category: "fast_food",
     },
     {
@@ -91,8 +93,9 @@ const Restaurants = () => {
       availability: "متاح اونلاين إلى 10:00 م",
       discount: "10%",
       rating: 4.8,
-      image: "/assets/bread-table.webp",
-      logo: "/assets/bread-table.webp",
+      image:
+        "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=300&fit=crop&crop=center",
+      logo: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=100&h=100&fit=crop&crop=center",
       category: "syrian",
     },
     {
@@ -102,8 +105,9 @@ const Restaurants = () => {
       availability: "متاح اونلاين إلى 11:30 م",
       discount: "20%",
       rating: 4.2,
-      image: "/assets/bread-table.webp",
-      logo: "/assets/bread-table.webp",
+      image:
+        "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop&crop=center",
+      logo: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=100&h=100&fit=crop&crop=center",
       category: "pizza",
     },
     {
@@ -113,8 +117,9 @@ const Restaurants = () => {
       availability: "متاح اونلاين إلى 9:00 م",
       discount: "8%",
       rating: 4.7,
-      image: "/assets/bread-table.webp",
-      logo: "/assets/bread-table.webp",
+      image:
+        "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=400&h=300&fit=crop&crop=center",
+      logo: "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=100&h=100&fit=crop&crop=center",
       category: "koshary",
     },
     {
@@ -124,8 +129,9 @@ const Restaurants = () => {
       availability: "متاح اونلاين إلى 11:00 م",
       discount: "12%",
       rating: 4.6,
-      image: "/assets/bread-table.webp",
-      logo: "/assets/bread-table.webp",
+      image:
+        "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=400&h=300&fit=crop&crop=center",
+      logo: "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=100&h=100&fit=crop&crop=center",
       category: "lasagna",
     },
   ];

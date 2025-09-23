@@ -22,21 +22,23 @@ const LibraryBookDetail = () => {
   // Book data (in real app, this would come from API)
   const book = {
     id: parseInt(id),
-    name: "مبادئ الفيزياء العامة",
+    name: "المعاصر في الرياضيات - الصف الثالث الثانوي",
     description:
-      "كتاب شامل لمبادئ الفيزياء الأساسية، يغطي جميع المواضيع المهمة في الفيزياء العامة مع أمثلة تطبيقية وتمارين محلولة.",
-    price: 200,
-    originalPrice: 250,
+      "كتاب المعاصر الشامل في الرياضيات للثانوية العامة، يغطي جميع المناهج المطلوبة مع شرح مفصل وأمثلة تطبيقية وتمارين محلولة.",
+    price: 120,
+    originalPrice: 150,
     discount: "20%",
-    image: "/assets/library.jpg",
+    image:
+      "/assets/7945313.jpg",
     sizes: ["نسخة ورقية", "نسخة إلكترونية", "نسخة صوتية"],
     storeName: "مكتبة المعرفة العامة",
-    storeLogo: "/assets/library.jpg",
+    storeLogo:
+      "/assets/7945313.jpg",
     storeRating: 4.8,
     storeAddress: "شارع التحرير، وسط البلد",
     storeWorkingHours: "وقت العمل : 8 ص : 10 م",
     category: "كتب أكاديمية",
-    ingredients: ["فيزياء عامة", "رياضيات", "ميكانيكا", "كهرباء"],
+    ingredients: ["رياضيات", "جبر", "هندسة", "تفاضل وتكامل"],
     preparationTime: "متوفر فوراً",
     isAvailable: true,
   };

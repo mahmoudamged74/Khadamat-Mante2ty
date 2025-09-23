@@ -28,7 +28,7 @@ const MarketProductDetail = () => {
     price: 15,
     originalPrice: 20,
     discount: "25%",
-    image: "/assets/banana.webp",
+    image: "/assets/cart.webp",
     sizes: ["كيلو", "نصف كيلو", "ربع كيلو"],
     storeName: "سوبر ماركت الأهلي",
     storeLogo: "/assets/cart.webp",

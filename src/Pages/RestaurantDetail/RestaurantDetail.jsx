@@ -34,8 +34,8 @@ const RestaurantDetail = () => {
     name: "Heart Attack",
     workingHours: "وقت العمل : 12 ص : 12 م",
     address: "32 ش فيصل الجيزة",
-    logo: "/assets/22.svg",
-    heroImage: "/assets/1.svg",
+    logo: "/public/assets/22.svg",
+    heroImage: "/public/assets/1.svg",
     category: "fast_food",
   };
 
@@ -43,17 +43,20 @@ const RestaurantDetail = () => {
   const photos = [
     {
       id: 1,
-      image: "/assets/bread-table.webp  ",
+      image:
+        "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400&h=300&fit=crop&crop=center",
       title: "وجبة العائلة الكاملة",
     },
     {
       id: 2,
-      image: "/assets/bread-table.webp",
+      image:
+        "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop&crop=center",
       title: "برجر القلب",
     },
     {
       id: 3,
-      image: "/assets/bread-table.webp",
+      image:
+        "https://images.unsplash.com/photo-1562967914-608f82629710?w=400&h=300&fit=crop&crop=center",
       title: "دجاج مقلي",
     },
   ];
@@ -65,7 +68,8 @@ const RestaurantDetail = () => {
       title: "اقوى عرض لاقوى ويك أند",
       description: "9 بروست، 2 كول سلو، 2 رز 39 عيش",
       discount: "15%",
-      image: "/assets/bread-table.webp",
+      image:
+        "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400&h=300&fit=crop&crop=center",
       price: 200,
     },
     {
@@ -73,7 +77,8 @@ const RestaurantDetail = () => {
       title: "عرض البرجر الكبير",
       description: "برجر كبير مع بطاطس وشراب",
       discount: "20%",
-      image: "/assets/bread-table.webp",
+      image:
+        "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop&crop=center",
       price: 150,
     },
   ];
@@ -84,7 +89,8 @@ const RestaurantDetail = () => {
       id: 1,
       name: "وجبة العائلة",
       description: "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.",
-      image: "/assets/bread-table.webp",
+      image:
+        "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400&h=300&fit=crop&crop=center",
       price: 200,
       sizes: ["S", "M", "L"],
       storeName: "اسم المحل",
@@ -93,7 +99,8 @@ const RestaurantDetail = () => {
       id: 2,
       name: "برجر القلب",
       description: "برجر لحم مع جبن وطماطم",
-      image: "/assets/bread-table.webp",
+      image:
+        "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop&crop=center",
       price: 120,
       sizes: ["S", "M", "L"],
       storeName: "اسم المحل",
@@ -108,7 +115,8 @@ const RestaurantDetail = () => {
       address: "32 الشهيد فريد نما قسم دمياط",
       workingHours: "وقت العمل : 12 م : 12م",
       rating: 4.5,
-      image: "/assets/bread-table.webp",
+      image:
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&h=300&fit=crop&crop=center",
     },
     {
       id: 2,
@@ -116,7 +124,8 @@ const RestaurantDetail = () => {
       address: "شارع التحرير، وسط البلد",
       workingHours: "وقت العمل : 12 م : 12م",
       rating: 4.8,
-      image: "/assets/bread-table.webp",
+      image:
+        "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=300&fit=crop&crop=center",
     },
   ];
 

@@ -3,9 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Home from "./Pages/Home/Home";
-import About from "./Pages/About";
-import Contact from "./Pages/Contact";
-import Login from "./Pages/Login";
+import About from "./Pages/About/About";
+import Contact from "./Pages/Contact/Contact";
+import Login from "./Pages/Login/Login";
+import Register from "./Pages/Register/Register";
+import OTP from "./Pages/OTP/OTP";
+import OTPForgetPassword from "./Pages/OTPForgetPassword/OTPForgetPassword";
+import ResetPassword from "./Pages/ResetPassword/ResetPassword";
+import ChangePassword from "./Pages/ChangePassword/ChangePassword";
 import Restaurants from "./Pages/Restaurants/Restaurants";
 import RestaurantDetail from "./Pages/RestaurantDetail/RestaurantDetail";
 import ProductDetail from "./Pages/ProductDetail/ProductDetail";
@@ -22,7 +27,9 @@ import AccessoryProductDetail from "./Pages/AccessoryProductDetail/AccessoryProd
 import CarWash from "./Pages/CarWash/CarWash";
 import CarWashDetail from "./Pages/CarWashDetail/CarWashDetail";
 import CarWashServiceDetail from "./Pages/CarWashServiceDetail/CarWashServiceDetail";
-import Pharmacy from "./Pages/Pharmacy";
+import Pharmacy from "./Pages/Pharmacy/Pharmacy";
+import PharmacyDetail from "./Pages/PharmacyDetail/PharmacyDetail";
+import PharmacyProductDetail from "./Pages/PharmacyProductDetail/PharmacyProductDetail";
 
 function App() {
   return (
@@ -32,7 +39,6 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="login" element={<Login />} />
           <Route path="restaurants" element={<Restaurants />} />
           <Route path="restaurants/:id" element={<RestaurantDetail />} />
           <Route path="product/:id" element={<ProductDetail />} />
@@ -56,7 +62,19 @@ function App() {
             element={<CarWashServiceDetail />}
           />
           <Route path="pharmacy" element={<Pharmacy />} />
+          <Route path="pharmacy/:id" element={<PharmacyDetail />} />
+          <Route
+            path="pharmacy-product/:id"
+            element={<PharmacyProductDetail />}
+          />
         </Route>
+        {/* Login, Register, OTP, OTPForgetPassword, ResetPassword and ChangePassword pages without navbar and footer */}
+        <Route path="login" element={<Login />} />
+        <Route path="register" element={<Register />} />
+        <Route path="otp" element={<OTP />} />
+        <Route path="otp-forgot-password" element={<OTPForgetPassword />} />
+        <Route path="reset-password" element={<ResetPassword />} />
+        <Route path="change-password" element={<ChangePassword />} />
       </Routes>
     </Router>
   );

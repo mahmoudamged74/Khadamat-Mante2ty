@@ -62,32 +62,32 @@ const Navbar = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-item" to="/restaurants">
+                  <Link style={{ textAlign: i18n.language === "ar" ? "right" : "left" }} className="dropdown-item" to="/restaurants">
                     {t("restaurants")}
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/markets">
+                  <Link style={{ textAlign: i18n.language === "ar" ? "right" : "left" }} className="dropdown-item" to="/markets">
                     {t("markets")}
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/clinics">
+                  <Link style={{ textAlign: i18n.language === "ar" ? "right" : "left" }} className="dropdown-item" to="/clinics">
                     {t("clinics")}
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/libraries">
+                  <Link style={{ textAlign: i18n.language === "ar" ? "right" : "left" }} className="dropdown-item" to="/libraries">
                     {t("libraries")}
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/accessories">
+                  <Link style={{ textAlign: i18n.language === "ar" ? "right" : "left" }} className="dropdown-item" to="/accessories">
                     {t("accessories")}
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/car-wash">
+                  <Link style={{ textAlign: i18n.language === "ar" ? "right" : "left" }} className="dropdown-item" to="/car-wash">
                     {t("car_wash")}
                   </Link>
                 </li>
@@ -95,7 +95,7 @@ const Navbar = () => {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/pharmacy">
+                  <Link style={{ textAlign: i18n.language === "ar" ? "right" : "left" }} className="dropdown-item" to="/pharmacy">
                     {t("pharmacy")}
                   </Link>
                 </li>

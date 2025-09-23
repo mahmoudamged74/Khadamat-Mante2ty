@@ -25,7 +25,7 @@ const MarketDetail = () => {
   const { id } = useParams();
   const { t } = useTranslation("global");
   const [activeTab, setActiveTab] = useState("products");
-  const [quantity, setQuantity] = useState(1);
+const [quantity, setQuantity] = useState(1);
   const [selectedSize, setSelectedSize] = useState("S");
 
   // Market data (in real app, this would come from API)
@@ -45,17 +45,17 @@ const MarketDetail = () => {
   const photos = [
     {
       id: 1,
-      image: "/assets/banana.webp",
+      image: "/assets/cart.webp",
       title: "قسم الخضروات الطازجة",
     },
     {
       id: 2,
-      image: "/assets/banana.webp",
+      image: "/assets/cart.webp",
       title: "قسم الفواكه الموسمية",
     },
     {
       id: 3,
-      image: "/assets/banana.webp",
+      image: "/assets/cart.webp",
       title: "قسم اللحوم والأسماك",
     },
   ];
@@ -67,7 +67,7 @@ const MarketDetail = () => {
       title: "عرض الخضروات الطازجة",
       description: "خضروات طازجة بخصم 30%",
       discount: "30%",
-      image: "/assets/banana.webp",
+      image: "/assets/cart.webp",
       price: 50,
     },
     {
@@ -75,7 +75,7 @@ const MarketDetail = () => {
       title: "عرض الفواكه الموسمية",
       description: "فواكه موسمية بخصم 25%",
       discount: "25%",
-      image: "/assets/banana.webp",
+      image: "/assets/cart.webp",
       price: 80,
     },
   ];
@@ -86,7 +86,7 @@ const MarketDetail = () => {
       id: 1,
       name: "طماطم طازجة",
       description: "طماطم طازجة من المزرعة",
-      image: "/assets/banana.webp",
+      image: "/assets/cart.webp",
       price: 15,
       sizes: ["كيلو", "نصف كيلو", "ربع كيلو"],
       storeName: "سوبر ماركت الأهلي",
@@ -95,7 +95,7 @@ const MarketDetail = () => {
       id: 2,
       name: "موز أصفر",
       description: "موز أصفر طازج",
-      image: "/assets/banana.webp",
+      image: "/assets/cart.webp",
       price: 25,
       sizes: ["كيلو", "نصف كيلو", "ربع كيلو"],
       storeName: "سوبر ماركت الأهلي",

@@ -30,7 +30,8 @@ const Libraries = () => {
       discount: "30%",
       subtitle: "Knowledge collection",
       cta: "Explore now!",
-      image: "/assets/banner.png",
+      image:
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200&h=400&fit=crop&crop=center",
     },
     {
       id: 2,
@@ -38,15 +39,15 @@ const Libraries = () => {
       discount: "25%",
       subtitle: "Study materials",
       cta: "Discover!",
-      image: "/assets/banner2.webp",
-    },
+      image:"assets/7945313.jpg"    },
     {
       id: 3,
       title: "DIGITAL LIBRARY",
       discount: "20%",
       subtitle: "Online access",
       cta: "Learn more!",
-      image: "/assets/banner3.webp",
+      image:
+        "assets/7945313.jpg",
     },
   ];
 
@@ -68,8 +69,9 @@ const Libraries = () => {
       availability: "متاح اونلاين إلى 10:00 م",
       discount: "15%",
       rating: 4.8,
-      image: "/assets/library.jpg",
-      logo: "/assets/library.jpg",
+      image:
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop&crop=center",
+      logo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=center",
       category: "academic",
     },
     {
@@ -79,8 +81,8 @@ const Libraries = () => {
       availability: "متاح اونلاين إلى 9:00 م",
       discount: "20%",
       rating: 4.6,
-      image: "/assets/library.jpg",
-      logo: "/assets/library.jpg",
+      image: "assets/7945313.jpg",
+      logo: "assets/7945313.jpg",
       category: "children",
     },
     {
@@ -90,8 +92,8 @@ const Libraries = () => {
       availability: "متاح اونلاين إلى 11:00 م",
       discount: "12%",
       rating: 4.4,
-      image: "/assets/library.jpg",
-      logo: "/assets/library.jpg",
+      image: "assets/7945313.jpg",
+      logo: "assets/7945313.jpg",
       category: "fiction",
     },
     {
@@ -101,8 +103,8 @@ const Libraries = () => {
       availability: "متاح اونلاين إلى 8:00 م",
       discount: "18%",
       rating: 4.7,
-      image: "/assets/library.jpg",
-      logo: "/assets/library.jpg",
+      image: "assets/7945313.jpg",
+      logo: "assets/7945313.jpg",
       category: "reference",
     },
     {
@@ -112,8 +114,8 @@ const Libraries = () => {
       availability: "متاح اونلاين إلى 9:30 م",
       discount: "22%",
       rating: 4.9,
-      image: "/assets/library.jpg",
-      logo: "/assets/library.jpg",
+      image: "assets/7945313.jpg",
+      logo: "assets/7945313.jpg",
       category: "academic",
     },
     {
@@ -123,8 +125,8 @@ const Libraries = () => {
       availability: "متاح اونلاين إلى 7:00 م",
       discount: "10%",
       rating: 4.3,
-      image: "/assets/library.jpg",
-      logo: "/assets/library.jpg",
+      image: "assets/7945313.jpg",
+      logo: "assets/7945313.jpg",
       category: "reference",
     },
   ];
