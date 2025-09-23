@@ -8,6 +8,7 @@ const HeadSection = () => {
   return (
     <section className={styles.headSection}>
       <div className="container">
+        
         <div className="row align-items-center">
           <div className="col-md-8">
             <div className={styles.textContent}>
