@@ -289,17 +289,17 @@
 /* Swap columns automatically when RTL */
 
 [dir="rtl"] .row .col-lg-6:first-child {
-    order: 2; /* الصورة تبقى بعد المحتوى */
-  }
-  
-  [dir="rtl"] .row .col-lg-6:last-child {
-    order: 1; /* المحتوى ييجي قبل الصورة */
-  }
-  
-  /* RTL Support */
-  [dir="rtl"] .contentSide {
-    text-align: right;
-  }
+  order: 2; /* الصورة تبقى بعد المحتوى */
+}
+
+[dir="rtl"] .row .col-lg-6:last-child {
+  order: 1; /* المحتوى ييجي قبل الصورة */
+}
+
+/* RTL Support */
+[dir="rtl"] .contentSide {
+  text-align: right;
+}
 
 /* RTL Support for Swiper */
 .swiper[dir="ltr"] {
@@ -347,7 +347,13 @@
   }
 
   /* Reset order for mobile - keep normal order on small screens */
- 
+  [dir="rtl"] .row .col-lg-6:first-child {
+    order: 1; /* المحتوى يبقى فوق الصورة في الشاشات الصغيرة */
+  }
+
+  [dir="rtl"] .row .col-lg-6:last-child {
+    order: 2; /* الصورة تبقى تحت المحتوى في الشاشات الصغيرة */
+  }
 
   .imageSide {
     height: auto;
